@@ -359,7 +359,6 @@ body {
   box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
 }
 
-
 .hide {
   display: none;
 }
@@ -434,4 +433,31 @@ body {
 
 .fairy {
   background: #F9AEFF;
+}
+
+.left-container__top-section.gold, 
+.left-container__main-section.gold, 
+.left-container__right.gold, 
+.right-container.gold{
+  background-color: gold;
+}
+
+.left-container__hinge.gold{
+  background: linear-gradient(to right, goldenrod, gold, gold, goldenrod);
+}
+
+.d-pad__cell {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.poke-type-one, .poke-type-two {
+  text-transform: uppercase;
+}
+
+.list-item.active {
+  background: #1280f2;
+  color: white;
+  border: 1px solid gold;
 }
